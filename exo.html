@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exo Périgord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="arplan">
+    <header class="monHeader">
+      <nav>
+        <ul>
+          <li><a href="Accueil.html">Accueil</a></li>
+          <li><a href="Le_Périgord.html">Le Périgord</a></li>
+          <li><a href="Notre_gite.html">Notre gite</a></li>
+          <li><a href="Contactez-Nous.html">Contactez-Nous</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class="center"><i>Contactez-Nous</i></h2>
+      <h2 class="center mtitle">Gourmandise et Partage</h2>
+      <p class="center">
+        Nous serons très heureux de vous accueillir à
+        <strong>la Ferme Gourmande</strong> afin de vous faire partager l'amour
+        de notre région et de vous faire découvrir toutes nos plus belles
+        spécialités. Vous ne connaissez pas le Périgord Noir? <br /><i
+          ><strong><mark>Réservez vite</mark></strong></i
+        >
+      </p>
+      <iframe
+        height="300"
+        width="500"
+        src="https://www.youtube.com/embed/x7gKf0M8gEI"
+        title="Dordogne Périgord : Découverte de la Vallée de la Dordogne"
+        allowfullscreen
+      ></iframe>
+      <p class="center">Adresse</p>
+      <p class="center">10 impasse du Breil,<br />24260 Le Bugue</p>
+      <p class="center">
+        Téléphone:
+        <a href="tel:+330782237810">07 82 23 78 10</a>
+      </p>
+      <p class="center">
+        Notre Email:
+        <a href="mailto:contact@lafermegourmande.com"
+          >contact@lafermegourmande.com</a
+        >
+      </p>
+      <section class="backhoraires">
+        <h2 class="center horaires">Nos horaires</h2>
+        <table class="case1">
+          <tr>
+            <th class="case">Jours</th>
+            <th class="case">Lundi</th>
+            <th class="case">Mardi au Jeudi</th>
+            <th class="case">Vendredi au Dimanche</th>
+          </tr>
+          <tr>
+            <th class="case">Horaires</th>
+            <td class="case">fermé</td>
+            <td class="case">8h à 19h</td>
+            <td class="case">8h à 20h</td>
+          </tr>
+        </table>
+      </section>
+      <br /><br />
+      <div class="center backmenu centermenu">
+        <label for="nom">NOM Prénom:</label>
+        <input type="text" id="nom" name="nom" placeholder="NOM Prénom" /><br />
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="email" placeholder="E-Mail" />
+        <br />
+        <label for="Téléphone">Téléphone</label>
+        <input
+          type="tel"
+          id="Téléphone"
+          name="téléphone"
+          placeholder="Téléphone"
+        />
+        <br />
+        <label for="Message">Message:</label>
+        <textarea
+          class="box"
+          name="Message"
+          id="Message"
+          placeholder="Message"
+          rows="6"
+        ></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Envoyer" />
+      </div>
+      <div class="imagesection center">
+        <p><i>C'est trop beau le Périgord Noir</i></p>
+        <img src="./img/dordogne.jpg" alt="dordogne" />
+        <img src="./img/hotel-sarlat.jpg" alt="hotel-sarlat" />
+        <img src="./img/perigord-noir.jpg" alt="perigord-noir" />
+      </div>
+    </main>
+    <footer class="footalign">
+      <p>
+        Copyright 2019 -
+        <a href="https://www.perigordnoir-valleedordogne.com/"
+          >Office du tourisme du Périgord</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

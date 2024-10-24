@@ -1,0 +1,177 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.monHeader {
+  background-color: #9dc5bb;
+  color: rgb(0, 0, 0);
+  margin-top: -16px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.case {
+  border: 1px solid black;
+  padding: 10px 50px;
+  border-spacing: 10px;
+}
+.case1 {
+  border: 1px solid black;
+  padding: 10px;
+  border-spacing: 10px;
+  margin: 0 auto;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+}
+.center {
+  text-align: center; /* * centrez uniquement * */
+}
+.mtitle {
+  color: #17b890;
+  font-size: 50px;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.arplan {
+  background-color: #dee5e5;
+}
+.box {
+  height: 50px;
+  width: 500px;
+  align-self: center;
+}
+.imagesection img {
+  transition: transform 0.4s;
+}
+.imagesection img:hover {
+  padding: 20px;
+  transform: scale(1.1)
+}
+.footalign {
+  background-color: #9dc5bb;
+  color: rgb(0, 0, 0);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: -16px;
+  padding: 5px;
+}
+.horaires {
+  color: #082d0f;
+}
+.backhoraires {
+  background-color: #17b890;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.monHeader a:hover {
+  color: #003366;
+}
+.backmenu{
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.centermenu{
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input[type="Email"] {
+  width: 300px; 
+  align-self: center;
+}
+input[type="text"] {
+  width: 300px; 
+  align-self: center;
+}
+input[type="tel"] {
+  width: 300px; 
+  align-self: center;
+}
+input[type="submit"] {
+  width: 300px; 
+  align-self: center;
+}
